@@ -1,0 +1,30 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Muestro hola mundo
+		/* Otro comentario */
+		System.out.println("Hola mundo"); // Salto de línea
+		System.out.print("Hola mundo"); // Sin salto de línea
+		
+		// int, float, double (numericos) -> variable siempre debe tener la primera letra en minus y las siguientes en mayúscula
+		int miEdad = 34; // int 
+		float miFloat = 12.01f;
+		double miDouble = 12.04; // inicializar una variable
+		System.out.println(miEdad);
+		
+		// booleano (true, false)
+		boolean miTrue = true;
+		boolean miFalse = false;
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
