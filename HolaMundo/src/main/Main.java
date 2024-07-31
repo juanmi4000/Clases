@@ -1,5 +1,7 @@
 package main;
 
+import utilidades.Entrada;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -89,7 +91,7 @@ public class Main {
 		System.out.println("Resto de la división: " + resto);*/
 		
 		// operadores lógicos (true, false): and (&, && (umpersand)), or (|, ||), <, <=, >, >=
-		int num1 = 4;
+		/*int num1 = 4;
 		int num2 = 5;
 		boolean heComido = true;
 		boolean heDormido = false;
@@ -131,6 +133,105 @@ public class Main {
 		} else {
 			System.out.println("Num1 es mayor que 0");
 		}
+		System.out.print("Pon tu nombre: ");
+		String cadena = Entrada.introducirCadena(); // introduce String
+		System.out.println(cadena);
+		
+		System.out.print("Pon tu edad: ");
+		int edad = Entrada.introducirEntero(); // introduce entero
+		System.out.println(edad); 
+		
+		long enteroDoble = Entrada.introducirEnteroGrande(); // introduce entero doble
+		*/
+		
+		// 30/07/2024
+		
+		// switch
+		/*
+		System.out.print("Introduce la edad: ");
+		int edad = Entrada.introducirEntero();
+		
+		switch (edad) {
+			case 1:
+				System.out.print("edad 1");
+				break;
+			case 2: 
+				System.out.print("edad 2");
+				break;
+			default :
+				System.out.print("No existe esa edad");
+				break;
+		}
+		
+		System.out.print("Que quieres comer? ");
+		String comida = Entrada.introducirCadena();
+		
+		switch (comida) {
+			case "pizza":
+				System.out.print("Has comido pizza");
+				break;
+			case "hamburguesa":
+				System.out.print("Has comido hamburguesa");
+				break;
+			default: 
+				System.out.print("No se que has comido");
+				break;
+		}
+		
+		// ternario
+		
+		boolean heDormido = true;
+		
+		System.out.print((heDormido) ? "Si he dormido" : "No he dormido");
+		
+		if (heDormido) {
+			System.out.print("Si he dormido");
+		} else {
+			System.out.print("No he dormido");
+		}
+		*/
+		// bucles
+		
+		// do/while
+		int num1 = 0;
+		
+		
+		// El do-while ejecuta el código mínimo una vez
+		do {
+			System.out.println("el número es: " + num1);
+			// 
+			num1++;
+			// num1--
+		} while (num1 <= 5); // Se ejecuta mientras es verdadera la expresión
+		
+		System.out.println("Estoy fuera del do-while");
+		
+		// while
+		int num2 = 0;
+		while (num2 != 5) {
+			System.out.println("el número 2 es: " + num2);
+			num2++;
+		}
+		
+		System.out.println("Estoy fuera del while");
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
 		
 		
 		
